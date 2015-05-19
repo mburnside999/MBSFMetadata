@@ -1,0 +1,503 @@
+Buildfile: /Users/mburnside/Downloads/salesforce_ant_33.0/sample/build.xml
+
+describeMetadata:
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: InstalledPackage
+[sf:describeMetadata] DirName: installedPackages
+[sf:describeMetadata] Suffix: installedPackage
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomLabels
+[sf:describeMetadata] DirName: labels
+[sf:describeMetadata] Suffix: labels
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: CustomLabel,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: StaticResource
+[sf:describeMetadata] DirName: staticresources
+[sf:describeMetadata] Suffix: resource
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Scontrol
+[sf:describeMetadata] DirName: scontrols
+[sf:describeMetadata] Suffix: scf
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ApexComponent
+[sf:describeMetadata] DirName: components
+[sf:describeMetadata] Suffix: component
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ApexPage
+[sf:describeMetadata] DirName: pages
+[sf:describeMetadata] Suffix: page
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Queue
+[sf:describeMetadata] DirName: queues
+[sf:describeMetadata] Suffix: queue
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ExternalDataSource
+[sf:describeMetadata] DirName: dataSources
+[sf:describeMetadata] Suffix: dataSource
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: NamedCredential
+[sf:describeMetadata] DirName: namedCredentials
+[sf:describeMetadata] Suffix: namedCredential
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Role
+[sf:describeMetadata] DirName: roles
+[sf:describeMetadata] Suffix: role
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Group
+[sf:describeMetadata] DirName: groups
+[sf:describeMetadata] Suffix: group
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: UiPlugin
+[sf:describeMetadata] DirName: uiplugins
+[sf:describeMetadata] Suffix: uiplugin
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomObject
+[sf:describeMetadata] DirName: objects
+[sf:describeMetadata] Suffix: object
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: CustomField,BusinessProcess,CompactLayout,RecordType,WebLink,ValidationRule,SharingReason,ListView,FieldSet,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ReportType
+[sf:describeMetadata] DirName: reportTypes
+[sf:describeMetadata] Suffix: reportType
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Report
+[sf:describeMetadata] DirName: reports
+[sf:describeMetadata] Suffix: report
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: true
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Dashboard
+[sf:describeMetadata] DirName: dashboards
+[sf:describeMetadata] Suffix: dashboard
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: true
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: AnalyticSnapshot
+[sf:describeMetadata] DirName: analyticSnapshots
+[sf:describeMetadata] Suffix: snapshot
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Layout
+[sf:describeMetadata] DirName: layouts
+[sf:describeMetadata] Suffix: layout
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Document
+[sf:describeMetadata] DirName: documents
+[sf:describeMetadata] Suffix: null
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: true
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomPageWebLink
+[sf:describeMetadata] DirName: weblinks
+[sf:describeMetadata] Suffix: weblink
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: QuickAction
+[sf:describeMetadata] DirName: quickActions
+[sf:describeMetadata] Suffix: quickAction
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: FlexiPage
+[sf:describeMetadata] DirName: flexipages
+[sf:describeMetadata] Suffix: flexipage
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomTab
+[sf:describeMetadata] DirName: tabs
+[sf:describeMetadata] Suffix: tab
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomApplicationComponent
+[sf:describeMetadata] DirName: customApplicationComponents
+[sf:describeMetadata] Suffix: customApplicationComponent
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomApplication
+[sf:describeMetadata] DirName: applications
+[sf:describeMetadata] Suffix: app
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Portal
+[sf:describeMetadata] DirName: portals
+[sf:describeMetadata] Suffix: portal
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Letterhead
+[sf:describeMetadata] DirName: letterhead
+[sf:describeMetadata] Suffix: letter
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: EmailTemplate
+[sf:describeMetadata] DirName: email
+[sf:describeMetadata] Suffix: email
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: true
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Flow
+[sf:describeMetadata] DirName: flows
+[sf:describeMetadata] Suffix: flow
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Workflow
+[sf:describeMetadata] DirName: workflows
+[sf:describeMetadata] Suffix: workflow
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: WorkflowFieldUpdate,WorkflowKnowledgePublish,WorkflowTask,WorkflowAlert,WorkflowSend,WorkflowOutboundMessage,WorkflowFlowAction,WorkflowRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: AssignmentRules
+[sf:describeMetadata] DirName: assignmentRules
+[sf:describeMetadata] Suffix: assignmentRules
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: AssignmentRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: AutoResponseRules
+[sf:describeMetadata] DirName: autoResponseRules
+[sf:describeMetadata] Suffix: autoResponseRules
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: AutoResponseRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: EscalationRules
+[sf:describeMetadata] DirName: escalationRules
+[sf:describeMetadata] Suffix: escalationRules
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: EscalationRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: PostTemplate
+[sf:describeMetadata] DirName: postTemplates
+[sf:describeMetadata] Suffix: postTemplate
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ApprovalProcess
+[sf:describeMetadata] DirName: approvalProcesses
+[sf:describeMetadata] Suffix: approvalProcess
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: HomePageComponent
+[sf:describeMetadata] DirName: homePageComponents
+[sf:describeMetadata] Suffix: homePageComponent
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: HomePageLayout
+[sf:describeMetadata] DirName: homePageLayouts
+[sf:describeMetadata] Suffix: homePageLayout
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomObjectTranslation
+[sf:describeMetadata] DirName: objectTranslations
+[sf:describeMetadata] Suffix: objectTranslation
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Translations
+[sf:describeMetadata] DirName: translations
+[sf:describeMetadata] Suffix: translation
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ApexClass
+[sf:describeMetadata] DirName: classes
+[sf:describeMetadata] Suffix: cls
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ApexTrigger
+[sf:describeMetadata] DirName: triggers
+[sf:describeMetadata] Suffix: trigger
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Profile
+[sf:describeMetadata] DirName: profiles
+[sf:describeMetadata] Suffix: profile
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: PermissionSet
+[sf:describeMetadata] DirName: permissionsets
+[sf:describeMetadata] Suffix: permissionset
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: DataCategoryGroup
+[sf:describeMetadata] DirName: datacategorygroups
+[sf:describeMetadata] Suffix: datacategorygroup
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: RemoteSiteSetting
+[sf:describeMetadata] DirName: remoteSiteSettings
+[sf:describeMetadata] Suffix: remoteSite
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: MatchingRules
+[sf:describeMetadata] DirName: matchingRules
+[sf:describeMetadata] Suffix: matchingRule
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: MatchingRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: AuthProvider
+[sf:describeMetadata] DirName: authproviders
+[sf:describeMetadata] Suffix: authprovider
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomSite
+[sf:describeMetadata] DirName: sites
+[sf:describeMetadata] Suffix: site
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ChannelLayout
+[sf:describeMetadata] DirName: channelLayouts
+[sf:describeMetadata] Suffix: channelLayout
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: SharingRules
+[sf:describeMetadata] DirName: sharingRules
+[sf:describeMetadata] Suffix: sharingRules
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: SharingOwnerRule,SharingCriteriaRule,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: SharingSet
+[sf:describeMetadata] DirName: sharingSets
+[sf:describeMetadata] Suffix: sharingSet
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Community
+[sf:describeMetadata] DirName: communities
+[sf:describeMetadata] Suffix: community
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CallCenter
+[sf:describeMetadata] DirName: callCenters
+[sf:describeMetadata] Suffix: callCenter
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: EntitlementProcess
+[sf:describeMetadata] DirName: entitlementProcesses
+[sf:describeMetadata] Suffix: entitlementProcess
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: MilestoneType
+[sf:describeMetadata] DirName: milestoneTypes
+[sf:describeMetadata] Suffix: milestoneType
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: EntitlementTemplate
+[sf:describeMetadata] DirName: entitlementTemplates
+[sf:describeMetadata] Suffix: entitlementTemplate
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ConnectedApp
+[sf:describeMetadata] DirName: connectedApps
+[sf:describeMetadata] Suffix: connectedApp
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: AppMenu
+[sf:describeMetadata] DirName: appMenus
+[sf:describeMetadata] Suffix: appMenu
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CustomPermission
+[sf:describeMetadata] DirName: customPermissions
+[sf:describeMetadata] Suffix: customPermission
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: SiteDotCom
+[sf:describeMetadata] DirName: siteDotComSites
+[sf:describeMetadata] Suffix: site
+[sf:describeMetadata] HasMetaFile: true
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Network
+[sf:describeMetadata] DirName: networks
+[sf:describeMetadata] Suffix: network
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ManagedTopics
+[sf:describeMetadata] DirName: managedTopics
+[sf:describeMetadata] Suffix: managedTopics
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ManagedTopic,************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: SamlSsoConfig
+[sf:describeMetadata] DirName: samlssoconfigs
+[sf:describeMetadata] Suffix: samlssoconfig
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: CorsWhitelistOrigin
+[sf:describeMetadata] DirName: corsWhitelistOrigins
+[sf:describeMetadata] Suffix: corsWhitelistOrigin
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: ActionLinkGroupTemplate
+[sf:describeMetadata] DirName: actionLinkGroupTemplates
+[sf:describeMetadata] Suffix: actionLinkGroupTemplate
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Skill
+[sf:describeMetadata] DirName: skills
+[sf:describeMetadata] Suffix: skill
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: LiveChatDeployment
+[sf:describeMetadata] DirName: liveChatDeployments
+[sf:describeMetadata] Suffix: liveChatDeployment
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: LiveChatButton
+[sf:describeMetadata] DirName: liveChatButtons
+[sf:describeMetadata] Suffix: liveChatButton
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: LiveChatAgentConfig
+[sf:describeMetadata] DirName: liveChatAgentConfigs
+[sf:describeMetadata] Suffix: liveChatAgentConfig
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: SynonymDictionary
+[sf:describeMetadata] DirName: synonymDictionaries
+[sf:describeMetadata] Suffix: synonymDictionary
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+[sf:describeMetadata] ************************************************************
+[sf:describeMetadata] XMLName: Settings
+[sf:describeMetadata] DirName: settings
+[sf:describeMetadata] Suffix: settings
+[sf:describeMetadata] HasMetaFile: false
+[sf:describeMetadata] InFolder: false
+[sf:describeMetadata] ChildObjects: ************************************************************
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
